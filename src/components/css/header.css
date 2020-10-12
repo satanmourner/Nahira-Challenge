@@ -1,0 +1,244 @@
+header {
+  height: 90%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav {
+  width: 70%;
+  position: absolute;
+  top: 0;
+  padding: 15px 25px;
+  border-radius: 0px 0px 30px 30px;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+div.right-col {
+  width: 65%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+div.right-col > img {
+  width: 45px;
+  height: 30px;
+  display: block;
+  cursor: pointer;
+}
+
+div.right-col > a {
+  color: #2e5d6aff;
+  text-decoration: none;
+}
+
+div.right-col i {
+  font-size: 20px;
+}
+
+div.left-col {
+  width: 35%;
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  color: #2e5d6aff;
+}
+
+div.left-col > span:first-child, div.left-col > span:last-child {
+  padding: 5px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+div.left-col > span:nth-child(3) {
+  padding: 5px 5px 5px 0px;
+}
+
+div.ticket-container {
+  width: 70%;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.tickets {
+  width: 100%;
+  border-radius: 30px;
+  position: absolute;
+  margin-top: -50px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 0 10px 15px 0 #c3d5d7ff;
+}
+
+div.top-row {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+div.line {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid rgba(218, 215, 215, 0.534);
+}
+
+div.line > span {
+  padding: 15px 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+}
+
+div.line > span:hover::before {
+  height: 8px;
+  width: 100%;
+  display: block;
+  background: #fede00ff;
+  border-radius: 0 0 5px 5px;
+  content: '';
+  position: absolute;
+  top: 0;
+}
+
+div.line > span:hover::after {
+  height: 3px;
+  width: 100%;
+  display: block;
+  background: #fede00ff;
+  content: '';
+  position: absolute;
+  bottom: 0;
+  margin: -2.5px;
+}
+
+div.top-row  a {
+  padding: 15px;
+  color: #2e5d6aff;
+  text-decoration: none;
+}
+
+div.top-row  a:last-child {
+  padding: 15px 15px 15px 0px;
+}
+
+div.mid-row {
+  align-self: flex-start;
+  padding: 15px 30px 0px 0px;
+  width: 35%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  cursor: pointer;
+}
+
+div.mid-row > span {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+div.mid-row i {
+  font-size: 18px;
+  padding: 0 5px;
+  cursor: pointer;
+}
+
+div.bot-row {
+  width: 90%;
+  padding: 10px 0 25px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+div.input-container {
+  width: 25%;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+div.input-container:last-of-type{
+  width: 20% !important;
+}
+
+div.row-input {
+  width: 100%;
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid rgba(218, 215, 215, 0.534);
+}
+
+div.name-input {
+  color:lightgrey;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+div.name-input > span {
+  padding: 5px;
+}
+
+div.row-input > input {
+  width: 100%;
+  padding: 5px;
+  border: none;
+  font-size: 16px;
+}
+
+div.input-container > pre {
+  color: red;
+}
+
+div.bot-row > button {
+  width: 20%;
+  font-size: 18px;
+  background-color: #fede00ff;
+  color: var(--main-color);
+  font-weight: bold;
+  box-shadow: 0 8px 15px 0 rgb(235, 217, 102);
+  border: none;
+  border-radius: 5px;
+  padding: 10px 0;
+  cursor: pointer;
+}
+

@@ -1,0 +1,115 @@
+article {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+div.trip {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+div.trip > h2 {
+  padding: 30px;
+  color: var(--main-color);
+}
+
+div.trip-images {
+  width: 80%;
+  height: 400px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+div.trip-images-container {
+  width: 100%;
+  height: 375px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  transition-duration: 1s;
+  transition-timing-function: ease;
+}
+
+div.image-container {
+  width: 25%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  transform: translateX(calc(var(--counter) * 270px));
+}
+
+div.image-container > img {
+  margin: auto;
+  display: block;
+  width: 90%;
+  height: 100%;
+  border-radius: 20px;
+  cursor: pointer;
+  object-fit: cover;
+  box-shadow: 0 2px 15px 0 rgb(91, 114, 121);
+}
+
+div.image-container > button {
+  width: 60%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  border: none;
+  font-size: 18px;
+  padding: 10px;
+  border-radius: 20px 20px 0px 0px;
+  color: var(--main-color);
+  background-color: #fede00ff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+div.arrows {
+  width: 100%;
+  z-index: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+div.circle-arr {
+  background-color: white;
+  width: 50px;
+  height: 50px;
+  border-radius: 100px;
+  box-shadow: 0 8px 15px 0 rgb(66, 98, 107);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+div.right { right: 0; }
+div.left { left: 0; }
+
+
+div.circle-arr > i {
+  position: absolute;
+  font-size: 20px;
+  font-weight: bold;
+}

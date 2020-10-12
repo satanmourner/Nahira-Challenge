@@ -1,0 +1,58 @@
+div.notif-news {
+  width: 100%;
+  padding: 150px 0;
+}
+
+div.news-container {
+  background-color: #e6f7f8ff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 50px;
+}
+
+div.news-container > img {
+  width: 25%;
+}
+
+div.input-email-container {
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+div.input-email-container > p {
+  color: var(--main-color);
+  padding: 25px;
+}
+
+div.input-email {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 25px;
+}
+
+div.input-email > input {
+  width: 65%;
+  padding: 15px;
+  font-size: 18px;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+}
+
+div.input-email > button {
+  width: 30%;
+  padding: 15px;
+  font-size: 17px;
+  border: none;
+  border-radius: 10px;
+  background-color: #fede00ff;
+  color: var(--main-color);
+  box-shadow: 0 8px 15px 0 rgb(235, 217, 102);
+  cursor: pointer;
+}
