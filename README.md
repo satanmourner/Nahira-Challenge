@@ -1,3 +1,5 @@
+This Project is not completed (responsive, some styles) and i worked on this project for 24 hours.   
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
 
 ## Available Scripts
